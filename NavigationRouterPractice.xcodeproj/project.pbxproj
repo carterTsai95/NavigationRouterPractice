@@ -7,48 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ADA9CCEE2882518B006F4E36 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9CCED2882518B006F4E36 /* Tests_iOS.swift */; };
-		ADA9CCF02882518B006F4E36 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9CCEF2882518B006F4E36 /* Tests_iOSLaunchTests.swift */; };
-		ADA9CCFA2882518B006F4E36 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9CCF92882518B006F4E36 /* Tests_macOS.swift */; };
-		ADA9CCFC2882518B006F4E36 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9CCFB2882518B006F4E36 /* Tests_macOSLaunchTests.swift */; };
 		ADA9CCFD2882518B006F4E36 /* NavigationRouterPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9CCD52882518A006F4E36 /* NavigationRouterPracticeApp.swift */; };
 		ADA9CCFE2882518B006F4E36 /* NavigationRouterPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9CCD52882518A006F4E36 /* NavigationRouterPracticeApp.swift */; };
-		ADA9CCFF2882518B006F4E36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9CCD62882518A006F4E36 /* ContentView.swift */; };
-		ADA9CD002882518B006F4E36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9CCD62882518A006F4E36 /* ContentView.swift */; };
+		ADA9CCFF2882518B006F4E36 /* HoldingAndTransactionRoutingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9CCD62882518A006F4E36 /* HoldingAndTransactionRoutingExample.swift */; };
+		ADA9CD002882518B006F4E36 /* HoldingAndTransactionRoutingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9CCD62882518A006F4E36 /* HoldingAndTransactionRoutingExample.swift */; };
 		ADA9CD012882518B006F4E36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA9CCD72882518B006F4E36 /* Assets.xcassets */; };
 		ADA9CD022882518B006F4E36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA9CCD72882518B006F4E36 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		ADA9CCEA2882518B006F4E36 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ADA9CCD02882518A006F4E36 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ADA9CCDB2882518B006F4E36;
-			remoteInfo = "NavigationRouterPractice (iOS)";
-		};
-		ADA9CCF62882518B006F4E36 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ADA9CCD02882518A006F4E36 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ADA9CCE12882518B006F4E36;
-			remoteInfo = "NavigationRouterPractice (macOS)";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		ADA9CCD52882518A006F4E36 /* NavigationRouterPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouterPracticeApp.swift; sourceTree = "<group>"; };
-		ADA9CCD62882518A006F4E36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ADA9CCD62882518A006F4E36 /* HoldingAndTransactionRoutingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingAndTransactionRoutingExample.swift; sourceTree = "<group>"; };
 		ADA9CCD72882518B006F4E36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADA9CCDC2882518B006F4E36 /* NavigationRouterPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationRouterPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA9CCE22882518B006F4E36 /* NavigationRouterPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationRouterPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADA9CCE42882518B006F4E36 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		ADA9CCE92882518B006F4E36 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADA9CCED2882518B006F4E36 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		ADA9CCEF2882518B006F4E36 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
-		ADA9CCF52882518B006F4E36 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADA9CCF92882518B006F4E36 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		ADA9CCFB2882518B006F4E36 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,20 +38,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADA9CCE62882518B006F4E36 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADA9CCF22882518B006F4E36 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,9 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				ADA9CCD42882518A006F4E36 /* Shared */,
-				ADA9CCE32882518B006F4E36 /* macOS */,
-				ADA9CCEC2882518B006F4E36 /* Tests iOS */,
-				ADA9CCF82882518B006F4E36 /* Tests macOS */,
 				ADA9CCDD2882518B006F4E36 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,8 +52,9 @@
 		ADA9CCD42882518A006F4E36 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				ADA9CD112882EDDE006F4E36 /* Model */,
 				ADA9CCD52882518A006F4E36 /* NavigationRouterPracticeApp.swift */,
-				ADA9CCD62882518A006F4E36 /* ContentView.swift */,
+				ADA9CCD62882518A006F4E36 /* HoldingAndTransactionRoutingExample.swift */,
 				ADA9CCD72882518B006F4E36 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -109,36 +65,15 @@
 			children = (
 				ADA9CCDC2882518B006F4E36 /* NavigationRouterPractice.app */,
 				ADA9CCE22882518B006F4E36 /* NavigationRouterPractice.app */,
-				ADA9CCE92882518B006F4E36 /* Tests iOS.xctest */,
-				ADA9CCF52882518B006F4E36 /* Tests macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ADA9CCE32882518B006F4E36 /* macOS */ = {
+		ADA9CD112882EDDE006F4E36 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				ADA9CCE42882518B006F4E36 /* macOS.entitlements */,
 			);
-			path = macOS;
-			sourceTree = "<group>";
-		};
-		ADA9CCEC2882518B006F4E36 /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				ADA9CCED2882518B006F4E36 /* Tests_iOS.swift */,
-				ADA9CCEF2882518B006F4E36 /* Tests_iOSLaunchTests.swift */,
-			);
-			path = "Tests iOS";
-			sourceTree = "<group>";
-		};
-		ADA9CCF82882518B006F4E36 /* Tests macOS */ = {
-			isa = PBXGroup;
-			children = (
-				ADA9CCF92882518B006F4E36 /* Tests_macOS.swift */,
-				ADA9CCFB2882518B006F4E36 /* Tests_macOSLaunchTests.swift */,
-			);
-			path = "Tests macOS";
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,42 +113,6 @@
 			productReference = ADA9CCE22882518B006F4E36 /* NavigationRouterPractice.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ADA9CCE82882518B006F4E36 /* Tests iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ADA9CD0B2882518B006F4E36 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
-			buildPhases = (
-				ADA9CCE52882518B006F4E36 /* Sources */,
-				ADA9CCE62882518B006F4E36 /* Frameworks */,
-				ADA9CCE72882518B006F4E36 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ADA9CCEB2882518B006F4E36 /* PBXTargetDependency */,
-			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = ADA9CCE92882518B006F4E36 /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		ADA9CCF42882518B006F4E36 /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ADA9CD0E2882518B006F4E36 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				ADA9CCF12882518B006F4E36 /* Sources */,
-				ADA9CCF22882518B006F4E36 /* Frameworks */,
-				ADA9CCF32882518B006F4E36 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ADA9CCF72882518B006F4E36 /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = ADA9CCF52882518B006F4E36 /* Tests macOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -229,14 +128,6 @@
 					};
 					ADA9CCE12882518B006F4E36 = {
 						CreatedOnToolsVersion = 13.2.1;
-					};
-					ADA9CCE82882518B006F4E36 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = ADA9CCDB2882518B006F4E36;
-					};
-					ADA9CCF42882518B006F4E36 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = ADA9CCE12882518B006F4E36;
 					};
 				};
 			};
@@ -255,8 +146,6 @@
 			targets = (
 				ADA9CCDB2882518B006F4E36 /* NavigationRouterPractice (iOS) */,
 				ADA9CCE12882518B006F4E36 /* NavigationRouterPractice (macOS) */,
-				ADA9CCE82882518B006F4E36 /* Tests iOS */,
-				ADA9CCF42882518B006F4E36 /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -278,20 +167,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADA9CCE72882518B006F4E36 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADA9CCF32882518B006F4E36 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -299,7 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADA9CCFF2882518B006F4E36 /* ContentView.swift in Sources */,
+				ADA9CCFF2882518B006F4E36 /* HoldingAndTransactionRoutingExample.swift in Sources */,
 				ADA9CCFD2882518B006F4E36 /* NavigationRouterPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,43 +183,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADA9CD002882518B006F4E36 /* ContentView.swift in Sources */,
+				ADA9CD002882518B006F4E36 /* HoldingAndTransactionRoutingExample.swift in Sources */,
 				ADA9CCFE2882518B006F4E36 /* NavigationRouterPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADA9CCE52882518B006F4E36 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ADA9CCF02882518B006F4E36 /* Tests_iOSLaunchTests.swift in Sources */,
-				ADA9CCEE2882518B006F4E36 /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADA9CCF12882518B006F4E36 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ADA9CCFC2882518B006F4E36 /* Tests_macOSLaunchTests.swift in Sources */,
-				ADA9CCFA2882518B006F4E36 /* Tests_macOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		ADA9CCEB2882518B006F4E36 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ADA9CCDB2882518B006F4E36 /* NavigationRouterPractice (iOS) */;
-			targetProxy = ADA9CCEA2882518B006F4E36 /* PBXContainerItemProxy */;
-		};
-		ADA9CCF72882518B006F4E36 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ADA9CCE12882518B006F4E36 /* NavigationRouterPractice (macOS) */;
-			targetProxy = ADA9CCF62882518B006F4E36 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		ADA9CD032882518B006F4E36 /* Debug */ = {
@@ -575,85 +419,6 @@
 			};
 			name = Release;
 		};
-		ADA9CD0C2882518B006F4E36 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9S84Q43P56;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "hung-chun.tsai.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "NavigationRouterPractice (iOS)";
-			};
-			name = Debug;
-		};
-		ADA9CD0D2882518B006F4E36 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9S84Q43P56;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "hung-chun.tsai.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "NavigationRouterPractice (iOS)";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		ADA9CD0F2882518B006F4E36 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9S84Q43P56;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "hung-chun.tsai.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "NavigationRouterPractice (macOS)";
-			};
-			name = Debug;
-		};
-		ADA9CD102882518B006F4E36 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9S84Q43P56;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "hung-chun.tsai.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "NavigationRouterPractice (macOS)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -680,24 +445,6 @@
 			buildConfigurations = (
 				ADA9CD092882518B006F4E36 /* Debug */,
 				ADA9CD0A2882518B006F4E36 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ADA9CD0B2882518B006F4E36 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ADA9CD0C2882518B006F4E36 /* Debug */,
-				ADA9CD0D2882518B006F4E36 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ADA9CD0E2882518B006F4E36 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ADA9CD0F2882518B006F4E36 /* Debug */,
-				ADA9CD102882518B006F4E36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
