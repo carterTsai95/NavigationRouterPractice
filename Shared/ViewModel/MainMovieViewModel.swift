@@ -41,8 +41,8 @@ class MainMovieViewModel: ObservableObject {
         }
     }
 
-    func setAccount(_ account: Movie) {
-        selectedMovie = account
+    func setMovie(_ movie: Movie) {
+        selectedMovie = movie
     }
 
     // Creating the destination view base on corresponding scenario.

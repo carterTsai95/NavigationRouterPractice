@@ -26,7 +26,7 @@ struct MovieDetailsView: View {
             Spacer()
             ForEach(moviesListData) { movie in
                 Button {
-                    vm.setAccount(movie)
+                    vm.setMovie(movie)
                 } label: {
                     Text("Select \(movie.name)")
                 }

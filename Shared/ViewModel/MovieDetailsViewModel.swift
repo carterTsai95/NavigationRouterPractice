@@ -16,7 +16,7 @@ class MovieDetailsViewModel: ObservableObject {
         self.accountList = moviesListData
     }
 
-    func setAccount(_ account: Movie) {
-        selectedMovie = account
+    func setMovie(_ movie: Movie) {
+        selectedMovie = movie
     }
 }
