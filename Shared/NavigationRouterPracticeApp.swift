@@ -11,7 +11,7 @@ import SwiftUI
 struct NavigationRouterPracticeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainMovieView()
         }
     }
 }

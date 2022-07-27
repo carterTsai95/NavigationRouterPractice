@@ -7,17 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADA2EDCF2890CCA600B6B97B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA2EDCE2890CCA600B6B97B /* Movie.swift */; };
+		ADA2EDD22890D08100B6B97B /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA2EDD12890D08100B6B97B /* MovieDetailsView.swift */; };
+		ADA2EDD52890D12900B6B97B /* MovieDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA2EDD42890D12900B6B97B /* MovieDetailsViewModel.swift */; };
+		ADA2EDD72890D18B00B6B97B /* MainMovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA2EDD62890D18B00B6B97B /* MainMovieViewModel.swift */; };
+		ADA2EDD92890D1CB00B6B97B /* MyRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA2EDD82890D1CB00B6B97B /* MyRouter.swift */; };
+		ADA2EDDB2890D1DF00B6B97B /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA2EDDA2890D1DF00B6B97B /* DummyData.swift */; };
+		ADA2EDDE2890D3D300B6B97B /* Demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = ADA2EDDD2890D3D300B6B97B /* Demo.gif */; };
 		ADA9CCFD2882518B006F4E36 /* NavigationRouterPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9CCD52882518A006F4E36 /* NavigationRouterPracticeApp.swift */; };
 		ADA9CCFE2882518B006F4E36 /* NavigationRouterPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9CCD52882518A006F4E36 /* NavigationRouterPracticeApp.swift */; };
-		ADA9CCFF2882518B006F4E36 /* HoldingAndTransactionRoutingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9CCD62882518A006F4E36 /* HoldingAndTransactionRoutingExample.swift */; };
-		ADA9CD002882518B006F4E36 /* HoldingAndTransactionRoutingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9CCD62882518A006F4E36 /* HoldingAndTransactionRoutingExample.swift */; };
+		ADA9CCFF2882518B006F4E36 /* MainMovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9CCD62882518A006F4E36 /* MainMovieView.swift */; };
 		ADA9CD012882518B006F4E36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA9CCD72882518B006F4E36 /* Assets.xcassets */; };
 		ADA9CD022882518B006F4E36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA9CCD72882518B006F4E36 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ADA2EDCE2890CCA600B6B97B /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		ADA2EDD12890D08100B6B97B /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
+		ADA2EDD42890D12900B6B97B /* MovieDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewModel.swift; sourceTree = "<group>"; };
+		ADA2EDD62890D18B00B6B97B /* MainMovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMovieViewModel.swift; sourceTree = "<group>"; };
+		ADA2EDD82890D1CB00B6B97B /* MyRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRouter.swift; sourceTree = "<group>"; };
+		ADA2EDDA2890D1DF00B6B97B /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		ADA2EDDD2890D3D300B6B97B /* Demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Demo.gif; sourceTree = "<group>"; };
 		ADA9CCD52882518A006F4E36 /* NavigationRouterPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouterPracticeApp.swift; sourceTree = "<group>"; };
-		ADA9CCD62882518A006F4E36 /* HoldingAndTransactionRoutingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingAndTransactionRoutingExample.swift; sourceTree = "<group>"; };
+		ADA9CCD62882518A006F4E36 /* MainMovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMovieView.swift; sourceTree = "<group>"; };
 		ADA9CCD72882518B006F4E36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADA9CCDC2882518B006F4E36 /* NavigationRouterPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationRouterPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA9CCE22882518B006F4E36 /* NavigationRouterPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationRouterPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,9 +54,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ADA2EDD02890D06F00B6B97B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ADA2EDD42890D12900B6B97B /* MovieDetailsViewModel.swift */,
+				ADA2EDD62890D18B00B6B97B /* MainMovieViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ADA2EDD32890D0D400B6B97B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADA2EDD12890D08100B6B97B /* MovieDetailsView.swift */,
+				ADA9CCD62882518A006F4E36 /* MainMovieView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ADA2EDDC2890D3A700B6B97B /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				ADA2EDDD2890D3D300B6B97B /* Demo.gif */,
+			);
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
 		ADA9CCCF2882518A006F4E36 = {
 			isa = PBXGroup;
 			children = (
+				ADA2EDDC2890D3A700B6B97B /* Screenshot */,
 				ADA9CCD42882518A006F4E36 /* Shared */,
 				ADA9CCDD2882518B006F4E36 /* Products */,
 			);
@@ -52,9 +92,10 @@
 		ADA9CCD42882518A006F4E36 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				ADA2EDD32890D0D400B6B97B /* View */,
+				ADA2EDD02890D06F00B6B97B /* ViewModel */,
 				ADA9CD112882EDDE006F4E36 /* Model */,
 				ADA9CCD52882518A006F4E36 /* NavigationRouterPracticeApp.swift */,
-				ADA9CCD62882518A006F4E36 /* HoldingAndTransactionRoutingExample.swift */,
 				ADA9CCD72882518B006F4E36 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -72,6 +113,9 @@
 		ADA9CD112882EDDE006F4E36 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				ADA2EDCE2890CCA600B6B97B /* Movie.swift */,
+				ADA2EDD82890D1CB00B6B97B /* MyRouter.swift */,
+				ADA2EDDA2890D1DF00B6B97B /* DummyData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -156,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADA9CD012882518B006F4E36 /* Assets.xcassets in Resources */,
+				ADA2EDDE2890D3D300B6B97B /* Demo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,8 +219,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADA9CCFF2882518B006F4E36 /* HoldingAndTransactionRoutingExample.swift in Sources */,
+				ADA2EDDB2890D1DF00B6B97B /* DummyData.swift in Sources */,
+				ADA2EDD52890D12900B6B97B /* MovieDetailsViewModel.swift in Sources */,
+				ADA9CCFF2882518B006F4E36 /* MainMovieView.swift in Sources */,
+				ADA2EDD72890D18B00B6B97B /* MainMovieViewModel.swift in Sources */,
 				ADA9CCFD2882518B006F4E36 /* NavigationRouterPracticeApp.swift in Sources */,
+				ADA2EDD22890D08100B6B97B /* MovieDetailsView.swift in Sources */,
+				ADA2EDD92890D1CB00B6B97B /* MyRouter.swift in Sources */,
+				ADA2EDCF2890CCA600B6B97B /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,7 +234,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADA9CD002882518B006F4E36 /* HoldingAndTransactionRoutingExample.swift in Sources */,
 				ADA9CCFE2882518B006F4E36 /* NavigationRouterPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
